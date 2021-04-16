@@ -1,11 +1,22 @@
 /* header.css */
-.header__container {
+    .header__container {
     display: flex;
     justify-content: space-between;
    }
+
    .header__logo {
     min-width: 200px; 
-    background-image: url("./pobierz.jpg"); <*nie widoczne??>
+    
+    
+    }
+
+    .header__logo--image{
+        border:5px solid black;
+        
+        background-size: cover;
+        position: absolute;
+        top:0px;
+        left: 0px;
     }
     
     .cell{

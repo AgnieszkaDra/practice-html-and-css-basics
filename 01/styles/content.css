@@ -1,37 +1,46 @@
 /* content.css */
 h1{
     font-weight: 800;
+    font-size: 2rem;
+    padding: 15px;
 }
 
 p{
     text-align: left;
+    margin-top: 15px;
 }
-
-
-
 .content__container {
     align-items: flex-start;
-    display: block;
+    display: flex;
     justify-content: space-between;
-    
-   }
+    margin-left: 300px;
+}
+
+.content__article-author{
+    font-style: italic;
+}
 
 .list{
     list-style-type: none;
 }
 
 .list__a{
-    font-weight: bold;
+    margin-top: 10px;
+    list-style-type: disc;
+    text-align:left ;
 }
-   .content__article {
+
+.list__a > .list__a-head{
+    font-weight: 700;
+}
+   
+.content__article {
     min-height: 400px;
     width: 75%;
-
+}
    
-   }
-   .content__ads{
+.content__ads{
     min-height: 150px;
     width: 20%;
-    
-   }
+}
    
