@@ -6,16 +6,13 @@
    }
 
    .header__logo {
-    min-width: 200px; 
+    /* min-width: 200px;  */
     }
 
     .header__logo--image{
         border:5px solid black;
-        
-        background-size: cover;
-        position: absolute;
-        top:0px;
-        left: 0px;
+        background-size: contain;
+       background-repeat: no-repeat;
     }
     
     .cell{
