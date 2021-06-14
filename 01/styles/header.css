@@ -2,12 +2,11 @@
     .header__container {
     display: flex;
     justify-content: space-between;
+    width: 100%;
    }
 
    .header__logo {
     min-width: 200px; 
-    
-    
     }
 
     .header__logo--image{

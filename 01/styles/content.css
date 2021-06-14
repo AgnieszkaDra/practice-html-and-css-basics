@@ -16,7 +16,7 @@ p{
     margin-left: 300px;
 }
 
-.content__article-author{
+.content__container__article-author{
     font-style: italic;
 }
 
@@ -34,12 +34,12 @@ p{
     font-weight: 700;
 }
    
-.content__article {
+.content__container__article-author {
     min-height: 400px;
     width: 75%;
 }
    
-.content__ads{
+.content__container__adds{
     min-height: 150px;
     width: 20%;
 }
