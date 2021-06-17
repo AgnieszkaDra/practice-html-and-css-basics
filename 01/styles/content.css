@@ -10,33 +10,29 @@ p{
     margin-top: 15px;
 }
 .content__container {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 300px;
+   width: 100%;
 }
 
-.content__container__article-author{
+.content__container__article {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content__container__article-author {
     font-style: italic;
 }
 
-.list{
-    list-style-type: none;
-}
+
 
 .list__a{
     margin-top: 10px;
-    list-style-type: disc;
+    list-style-type: none;
     text-align:left ;
 }
 
 .list__a > .list__a-head{
     font-weight: 700;
-}
-   
-.content__container__article-author {
-    min-height: 400px;
-    width: 75%;
 }
    
 .content__container__adds{
